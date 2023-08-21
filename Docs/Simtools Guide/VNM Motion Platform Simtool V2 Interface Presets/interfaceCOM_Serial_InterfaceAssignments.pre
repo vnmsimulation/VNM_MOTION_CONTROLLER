@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<InterfaceAssignments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <_ComPort>COM7</_ComPort>
+  <_BitsPerSec>921600</_BitsPerSec>
+  <_DataBits>8</_DataBits>
+  <_ParityBits>None</_ParityBits>
+  <_StopBits>1</_StopBits>
+  <_OutputBits>16</_OutputBits>
+  <_OutputType>Binary</_OutputType>
+  <_StartupOutput />
+  <_HWStartMS>0</_HWStartMS>
+  <_InterfaceOutput>&lt;255&gt;&lt;255&gt;&lt;Axis1a&gt;&lt;Axis2a&gt;&lt;Axis3a&gt;&lt;Axis4a&gt;&lt;Axis5a&gt;&lt;Axis6a&gt;&lt;010&gt;&lt;013&gt;</_InterfaceOutput>
+  <_ShutdownOutput />
+  <_HWStopMS>0</_HWStopMS>
+  <_OutPutRateMS>2</_OutPutRateMS>
+</InterfaceAssignments>
