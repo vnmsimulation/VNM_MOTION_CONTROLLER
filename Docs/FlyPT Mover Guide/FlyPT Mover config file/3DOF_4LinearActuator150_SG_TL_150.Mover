@@ -139,9 +139,9 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>POSE :: FROM MOTION</Name>
-    <Location>114,35</Location>
+    <Location>65,210</Location>
     <Size>1792,615</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
       <pnlSway.nudSwayInGain>1.000</pnlSway.nudSwayInGain>
@@ -169,11 +169,11 @@
       <NUDRollCORZ>0</NUDRollCORZ>
       <NUDPitchCORY>0</NUDPitchCORY>
       <NUDPitchCORZ>0</NUDPitchCORZ>
-      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>EMALP(VALUE;100)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
+      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>EMALP(CROP(VALUE;-8;8);100)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
       <pnlPitch.afcPitchFilter.txtFilterText>EMALP(VALUE;100)</pnlPitch.afcPitchFilter.txtFilterText>
-      <pnlRoll.afcSwayInRollFilter.txtFilterText>EMALP(VALUE;100)</pnlRoll.afcSwayInRollFilter.txtFilterText>
+      <pnlRoll.afcSwayInRollFilter.txtFilterText>EMALP(CROP(VALUE;-25;25);100)</pnlRoll.afcSwayInRollFilter.txtFilterText>
       <pnlRoll.afcRollFilter.txtFilterText>EMALP(VALUE;100)</pnlRoll.afcRollFilter.txtFilterText>
-      <pnlYaw.afcYawFilter.txtFilterText>EMALP(VALUE;100)</pnlYaw.afcYawFilter.txtFilterText>
+      <pnlYaw.afcYawFilter.txtFilterText>EMALP(CROP(VALUE;-9;9);100)</pnlYaw.afcYawFilter.txtFilterText>
       <pnlHeave.afcHeaveFilter.txtFilterText>EMALP(VALUE;100)</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>EMALP(VALUE;100)</pnlSurge.afcSurgeFilter.txtFilterText>
       <pnlSway.afcSwayFilter.txtFilterText>EMALP(VALUE;100)</pnlSway.afcSwayFilter.txtFilterText>
@@ -181,9 +181,9 @@
       <TXTName>POSE :: FROM MOTION</TXTName>
       <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
       <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <pnlPitch.chkMixSurgeInPitch>False</pnlPitch.chkMixSurgeInPitch>
+      <pnlPitch.chkMixSurgeInPitch>True</pnlPitch.chkMixSurgeInPitch>
       <pnlPitch.chkPitchManual>False</pnlPitch.chkPitchManual>
-      <pnlRoll.chkMixSwayInRoll>False</pnlRoll.chkMixSwayInRoll>
+      <pnlRoll.chkMixSwayInRoll>True</pnlRoll.chkMixSwayInRoll>
       <pnlRoll.chkRollManual>False</pnlRoll.chkRollManual>
       <pnlYaw.chkYawManual>False</pnlYaw.chkYawManual>
       <pnlHeave.chkHeaveManual>False</pnlHeave.chkHeaveManual>
@@ -200,12 +200,12 @@
       <TVInputSelection>
         <item>SOURCE :: ASSETTO CORSA (MMF)</item>
       </TVInputSelection>
-      <pnlPitch.hsPitchInOut>0;0</pnlPitch.hsPitchInOut>
-      <pnlRoll.hsRollInOut>0;-7.55363780263119E-158</pnlRoll.hsRollInOut>
-      <pnlYaw.hsYawInOut>0;0</pnlYaw.hsYawInOut>
+      <pnlPitch.hsPitchInOut>0;7.1624236243705E-146</pnlPitch.hsPitchInOut>
+      <pnlRoll.hsRollInOut>0;-1.89824088397345E-30</pnlRoll.hsRollInOut>
+      <pnlYaw.hsYawInOut>0;1.23516411460312E-322</pnlYaw.hsYawInOut>
       <pnlHeave.hsHeaveInOut>0;0</pnlHeave.hsHeaveInOut>
-      <pnlSurge.hsSurgeInOut>0;0</pnlSurge.hsSurgeInOut>
-      <pnlSway.hsSwayInOut>0;1.0807590080162E-167</pnlSway.hsSwayInOut>
+      <pnlSurge.hsSurgeInOut>0;1.34027482902589E-144</pnlSurge.hsSurgeInOut>
+      <pnlSway.hsSwayInOut>0;3.79643754715834E-30</pnlSway.hsSwayInOut>
     </CONTROLS>
   </POSE>
   <POSE>
@@ -253,7 +253,7 @@
   <RIG>
     <Type>Mover.Rigs.TL3DOFSurge</Type>
     <Name>Rig :: TL 3DOF Surge</Name>
-    <Location>-5,1</Location>
+    <Location>0,1</Location>
     <Size>1803,784</Size>
     <Visible>True</Visible>
     <CONTROLS>
